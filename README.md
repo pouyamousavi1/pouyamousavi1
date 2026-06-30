@@ -12,7 +12,7 @@
 <h3 align="center">Full-Stack Developer — I build financial dashboards & tools for the community</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;I+build+financial+dashboards;Turning+data+into+clear+decisions;Open-source+tools+for+the+community" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;I+build+financial+dashboards;AI-powered+tools+for+the+community;Turning+data+into+clear+decisions;Always+learning+more+AI" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -24,9 +24,10 @@
 ### 🚀 About Me
 
 - 📊 I love building **financial dashboards** — turning messy data into clear, actionable views
+- 🤖 I build **AI-powered tools** and love using AI to ship faster and smarter
 - 🛠️ I create **tools to help the community**, and I'm a fan of shipping them open-source
-- 🌱 Currently learning **data visualization, system design, and cloud deployment**
-- 💬 Ask me about **React, TypeScript, dashboards, data viz, and APIs**
+- 🌱 Always learning more about **AI/LLMs, data visualization, and cloud deployment**
+- 💬 Ask me about **React, TypeScript, dashboards, data viz, APIs, and AI integrations**
 - ⚡ Fun fact: **a good chart can replace a thousand spreadsheet rows**
 
 ---
@@ -35,6 +36,13 @@
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,d3,python,tailwind,postgres,mongodb,git,github,docker,vercel" alt="tech stack" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="openai" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="claude" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="langchain" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="hugging face" />
 </p>
 
 ---
