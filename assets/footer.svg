@@ -1,0 +1,53 @@
+<svg viewBox="0 0 1200 130" width="1200" height="130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2C5364"/>
+      <stop offset="0.5" stop-color="#203A43"/>
+      <stop offset="1" stop-color="#0F2027"/>
+    </linearGradient>
+    <radialGradient id="forb" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="fblur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+    <clipPath id="fframe">
+      <rect width="1200" height="130" rx="20"/>
+    </clipPath>
+    <style>
+      .fdrift { animation: fdrift 20s ease-in-out infinite; }
+      .fdots { animation: fdots 50s ease-in-out infinite; }
+      .fpulse { animation: fpulse 3.5s ease-in-out infinite; }
+      @keyframes fdrift {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(30px, -8px); }
+      }
+      @keyframes fdots {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(-26px, 6px); }
+      }
+      @keyframes fpulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .fdrift, .fdots, .fpulse { animation: none !important; }
+      }
+    </style>
+  </defs>
+  <g clip-path="url(#fframe)">
+    <rect width="1200" height="130" fill="url(#fbg)"/>
+    <path d="M0,34 C200,10 400,54 600,34 C800,14 1000,50 1200,26 L1200,0 L0,0 Z" fill="#FFFFFF" fill-opacity="0.05"/>
+    <circle class="fdrift" cx="220" cy="100" r="110" fill="url(#forb)" filter="url(#fblur)"/>
+    <circle class="fdrift" cx="980" cy="40" r="120" fill="url(#forb)" filter="url(#fblur)"/>
+    <g class="fdots" fill="#9FCBFF" opacity="0.3">
+      <circle cx="180" cy="60" r="1.8"/><circle cx="420" cy="90" r="1.6"/>
+      <circle cx="640" cy="50" r="1.8"/><circle cx="880" cy="95" r="1.6"/>
+      <circle cx="1080" cy="65" r="1.8"/>
+    </g>
+    <circle class="fpulse" cx="585" cy="72" r="3" fill="#58A6FF"/>
+    <circle class="fpulse" cx="600" cy="72" r="3" fill="#7FBFDF" style="animation-delay:0.6s"/>
+    <circle class="fpulse" cx="615" cy="72" r="3" fill="#35D0BA" style="animation-delay:1.2s"/>
+  </g>
+</svg>
